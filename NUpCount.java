@@ -13,6 +13,7 @@ public class NUpCount {
         {
             if(partialSum<=n&&partialSum+a[i]>n)
             nUpCount++;
+            partialSum+=a[i];
         }
 
       return nUpCount;
