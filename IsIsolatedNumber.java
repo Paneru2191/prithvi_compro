@@ -7,7 +7,7 @@ public class IsIsolatedNumber {
     public static int  isIsolatedNumber(int n)
     {
         if(n<0||n>2097151)
-        return 1;
+        return -1;
         int nsquare=n*n;
         int ncube=nsquare*n;
         int nc,sdigit,cdigit;
