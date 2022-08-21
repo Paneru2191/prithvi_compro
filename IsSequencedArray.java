@@ -11,7 +11,7 @@ public class IsSequencedArray {
         return 0;
         if(a.length==1&&m!=n)
         return 0;
-        if(a[0]!=m&&a[a.length-1]!=n)
+        if(a[0]!=m||a[a.length-1]!=n)
         return 0;
         for(int i=0;i<a.length-1;i++)
         {
