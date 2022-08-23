@@ -1,4 +1,4 @@
-public class LargestPromeFactor {
+public class LargestPrimeFactor {
     public static void main(String args[])
     {
         int result=largestPrimeFactor(1000);
