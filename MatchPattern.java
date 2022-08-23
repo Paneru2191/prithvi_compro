@@ -1,4 +1,4 @@
-public class MatchPattern {
+public class MatchPatternArray {
    public static void main(String args[])
    {
     int a[]={1, 1, 1, 2, 2, 1, 1, 3};
@@ -21,6 +21,7 @@ public class MatchPattern {
           if(k==pattern.length-1)
            break;
          k++;
+           matches=0;
         }
     }
     if (i==a.length && k==pattern.length-1) return 1; else return 0;
